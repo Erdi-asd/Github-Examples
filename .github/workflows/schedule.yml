@@ -1,5 +1,6 @@
 on:
   schedule:
+    # Ogni 5 minuti il workflow viene triggerato
     - cron: '*/5 * * * *'
 
 jobs:
